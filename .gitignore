@@ -1,0 +1,38 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+.kube/
+
+# Generated dependencies and build output
+**/node_modules/
+frontend/dist/
+dist/
+coverage/
+worker/builds/
+
+# Runtime files
+*.log
+*.pid
+.DS_Store
