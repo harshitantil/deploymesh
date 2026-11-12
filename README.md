@@ -1,10 +1,10 @@
-# CloudForge
+# DeployMesh
 
-CloudForge is a cloud-native deployment automation platform that streamlines application delivery using Infrastructure as Code, containers, CI/CD, and observability. It is designed to automate the build, test, deploy, rollback, and monitoring lifecycle for modern applications across cloud environments.
+DeployMesh is a cloud-native deployment automation platform that streamlines application delivery using Infrastructure as Code, containers, CI/CD, and observability. It is designed to automate the build, test, deploy, rollback, and monitoring lifecycle for modern applications across cloud environments.
 
 ## Overview
 
-CloudForge helps teams ship software faster and more reliably by reducing manual deployment steps and standardizing infrastructure provisioning. The platform brings together Terraform, Docker, Kubernetes, Ansible, GitHub Actions, AWS, Prometheus, and Grafana to create a production-oriented DevOps workflow.
+DeployMesh helps teams ship software faster and more reliably by reducing manual deployment steps and standardizing infrastructure provisioning. The platform brings together Terraform, Docker, Kubernetes, Ansible, GitHub Actions, AWS, Prometheus, and Grafana to create a production-oriented DevOps workflow.
 
 ## Key Features
 
@@ -31,7 +31,7 @@ CloudForge helps teams ship software faster and more reliably by reducing manual
 
 ## What It Does
 
-CloudForge supports an end-to-end deployment pipeline that can:
+DeployMesh supports an end-to-end deployment pipeline that can:
 
 1. Provision infrastructure in a repeatable way
 2. Build and package applications into containers
@@ -43,7 +43,7 @@ CloudForge supports an end-to-end deployment pipeline that can:
 
 ## Why I Built It
 
-Modern deployments often become fragmented across different tools and manual steps. CloudForge was built to demonstrate how a single automation platform can unify infrastructure provisioning, application delivery, monitoring, and access control into one consistent workflow.
+Modern deployments often become fragmented across different tools and manual steps. DeployMesh was built to demonstrate how a single automation platform can unify infrastructure provisioning, application delivery, monitoring, and access control into one consistent workflow.
 
 ## Highlights
 
@@ -56,7 +56,7 @@ Modern deployments often become fragmented across different tools and manual ste
 ## Repository Structure
 
 ```bash
-cloudforge/
+DeployMesh/
 ├── frontend/
 ├── backend/
 ├── terraform/
